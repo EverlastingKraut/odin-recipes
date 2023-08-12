@@ -4,12 +4,59 @@
     
 }
 
+.main-card {
+    background-color: rgba(197, 132, 35, 0.74);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 20px;
+    
+}
+
 h1 {
     text-align: center;
-    background-color: black;
+    background-color: rgb(52, 97, 165);
     color: white;
+    padding: 10px;
+    margin: 30px auto;
+    margin-bottom: 60px;
+    border-width: 8px;
+    border-color: black;
+    border-style:dashed solid;
+    border-radius: 6px;
+}
+
+ul {
+    width: 300px;
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+    text-align: center;
 }
 
 li {
-    text-align: center;
+    margin-bottom: 15px;
+}
+
+a {
+    display: block;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border-style: outset;
+    border-color: brown;
+    
+}
+
+
+a:link {
+    text-decoration: none;
+  }
+
+a:visited {
+    text-decoration: none;
 }
