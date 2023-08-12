@@ -2,12 +2,25 @@
     font-family: Arial, Helvetica, sans-serif; 
 }
 
+.main-card {
+    background-color: rgba(240, 248, 255, 0.904);
+    box-sizing: border-box;
+    width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 15px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(105, 184, 253);
+}
+
 img {
     height: auto;
-    width: 600px;
+    width: 100%;
 }
 
 
 h1, h2, h3 {
     color: rgb(38, 92, 192);
 }
+
